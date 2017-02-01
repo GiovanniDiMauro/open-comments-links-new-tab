@@ -1,5 +1,5 @@
-//da inserire nel file function.php
 <?php
+//da inserire nel file function.php
 //apre link su nuova scheda inizio 
 function apri_in_nuova_scheda($text) {
 	$return_url = str_replace('<a', '<a target="_blank" title="Apri link su nuova scheda"', $text);
